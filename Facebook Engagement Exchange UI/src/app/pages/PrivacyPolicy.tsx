@@ -70,8 +70,8 @@ export function PrivacyPolicy() {
             <h2 className="text-lg font-semibold text-foreground">8. Contact</h2>
             <p>
               For privacy questions, contact:{" "}
-              <a className="text-primary underline underline-offset-2" href="mailto:support@exchangetunnel.app">
-                support@exchangetunnel.app
+              <a className="text-primary underline underline-offset-2" href="mailto:loomfoxdesignstudio@gmail.com">
+                loomfoxdesignstudio@gmail.com
               </a>
             </p>
           </section>

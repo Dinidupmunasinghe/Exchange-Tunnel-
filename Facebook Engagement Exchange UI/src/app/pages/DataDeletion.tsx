@@ -18,8 +18,8 @@ export function DataDeletion() {
             <h2 className="text-lg font-semibold text-foreground">Option 2: Email request</h2>
             <p>
               Send an email to{" "}
-              <a className="text-primary underline underline-offset-2" href="mailto:support@exchangetunnel.app">
-                support@exchangetunnel.app
+              <a className="text-primary underline underline-offset-2" href="mailto:loomfoxdesignstudio@gmail.com">
+                loomfoxdesignstudio@gmail.com
               </a>{" "}
               with subject: <strong>Data Deletion Request</strong>.
             </p>
