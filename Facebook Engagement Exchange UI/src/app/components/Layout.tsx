@@ -38,7 +38,7 @@ export function Layout() {
           >
             <Menu className="h-5 w-5" />
           </Button>
-          <h1 className="font-bold text-brand">EngageBoost</h1>
+          <h1 className="font-bold text-brand">Exchange Tunnel</h1>
         </div>
 
         <TopBar />

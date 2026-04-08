@@ -1,5 +1,5 @@
 import { useEffect, useState, useCallback, useRef } from "react";
-import { useNavigate, useSearchParams } from "react-router";
+import { Link, useNavigate, useSearchParams } from "react-router";
 import { Facebook } from "lucide-react";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "../components/ui/card";
 import { Button } from "../components/ui/button";
@@ -206,7 +206,7 @@ export function Login() {
           <div className="mx-auto flex h-14 w-14 items-center justify-center rounded-xl bg-brand shadow-lg shadow-brand/30 transition-transform hover:scale-105">
             <Facebook className="h-8 w-8 text-brand-foreground" />
           </div>
-          <CardTitle className="text-2xl text-foreground">EngageBoost</CardTitle>
+          <CardTitle className="text-2xl text-foreground">Exchange Tunnel</CardTitle>
           <CardDescription>
             Sign in with Facebook to continue to your dashboard.
           </CardDescription>
@@ -250,6 +250,17 @@ export function Login() {
             <Facebook className="h-5 w-5" />
             {loading ? "Connecting…" : "Continue with Facebook"}
           </Button>
+          <p className="text-center text-xs text-muted-foreground">
+            By continuing, you agree to our{" "}
+            <Link to="/privacy-policy" className="text-primary underline underline-offset-2">
+              Privacy Policy
+            </Link>{" "}
+            and{" "}
+            <Link to="/data-deletion" className="text-primary underline underline-offset-2">
+              Data Deletion Instructions
+            </Link>
+            .
+          </p>
         </CardContent>
       </Card>
     </div>

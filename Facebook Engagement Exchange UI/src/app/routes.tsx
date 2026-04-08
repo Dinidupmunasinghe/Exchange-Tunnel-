@@ -10,9 +10,13 @@ import { Wallet } from "./pages/Wallet";
 import { Settings } from "./pages/Settings";
 import { NotFound } from "./pages/NotFound";
 import { Login } from "./pages/Login";
+import { PrivacyPolicy } from "./pages/PrivacyPolicy";
+import { DataDeletion } from "./pages/DataDeletion";
 
 export const router = createBrowserRouter([
   { path: "/login", Component: Login },
+  { path: "/privacy-policy", Component: PrivacyPolicy },
+  { path: "/data-deletion", Component: DataDeletion },
   {
     path: "/",
     Component: ProtectedRoute,

@@ -7,7 +7,7 @@ import {
   BarChart3, 
   Wallet, 
   Settings,
-  Facebook,
+  Waypoints,
   X
 } from "lucide-react";
 import { Button } from "./ui/button";
@@ -35,13 +35,13 @@ export function Sidebar({ onClose }: SidebarProps) {
       <div className="flex h-16 items-center justify-between border-b border-border px-6">
         <div className="group/logo flex cursor-default items-center gap-3">
           <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-brand shadow-md shadow-brand/25 transition-transform group-hover/logo:scale-105">
-            <Facebook className="h-6 w-6 text-brand-foreground" />
+            <Waypoints className="h-6 w-6 text-brand-foreground" />
           </div>
           <div>
             <h1 className="text-lg font-bold text-foreground transition-colors group-hover/logo:text-brand">
-              EngageBoost
+              Exchange Tunnel
             </h1>
-            <p className="text-xs text-muted-foreground">Grow Together</p>
+            <p className="text-xs text-muted-foreground">Connect. Exchange. Grow.</p>
           </div>
         </div>
         {onClose && (
