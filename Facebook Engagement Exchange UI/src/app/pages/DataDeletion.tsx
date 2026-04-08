@@ -1,6 +1,6 @@
 export function DataDeletion() {
   return (
-    <div className="min-h-screen bg-background text-foreground">
+    <div className="h-screen overflow-y-auto bg-background text-foreground">
       <div className="mx-auto max-w-3xl px-4 py-10 md:px-6">
         <h1 className="text-3xl font-bold">Exchange Tunnel Data Deletion Instructions</h1>
         <p className="mt-2 text-sm text-muted-foreground">Last updated: April 8, 2026</p>
