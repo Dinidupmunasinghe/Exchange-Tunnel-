@@ -1,0 +1,5 @@
+/* Scan all of src/ (brace globs can fail on some Windows setups). */
+@import "tailwindcss";
+@source "..";
+
+@import "tw-animate-css";

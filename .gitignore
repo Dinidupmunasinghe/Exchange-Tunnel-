@@ -1,0 +1,10 @@
+node_modules/
+backend/node_modules/
+Facebook Engagement Exchange UI/node_modules/
+
+.env
+backend/.env
+Facebook Engagement Exchange UI/.env
+
+backend/mysql-data/
+Facebook Engagement Exchange UI/dist/

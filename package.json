@@ -1,0 +1,10 @@
+{
+  "name": "exchange-tunnel",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently -n api,web -c blue,magenta \"npm run dev --prefix backend\" \"npm run dev --prefix \\\"Facebook Engagement Exchange UI\\\"\""
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}
